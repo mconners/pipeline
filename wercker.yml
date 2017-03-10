@@ -66,7 +66,7 @@ deploy:
        cmd: /pipeline/source/hello
        port: "8080"
        tag: latest
-       repository: cloudnativego/book-hello
+       repository: mconners/pipeline
        registry: https://registry.hub.docker.com
 
    - cng/cf-deploy:
