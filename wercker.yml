@@ -63,7 +63,7 @@ deploy:
    - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: /pipeline/source/hello
+       cmd: /pipeline/source/pipeline
        port: "8080"
        tag: latest
        repository: mconners/pipeline

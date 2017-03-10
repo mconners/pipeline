@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello Docker")
+	fmt.Println("Hello to ya momma")
 }
